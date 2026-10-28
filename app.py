@@ -67,11 +67,9 @@ st.markdown(
 # --------------------------------------------------
 # DATA LOADING
 # --------------------------------------------------
-DATA_PATH = (
-    r"C:\Users\sakshi\Downloads\Hotel_ETA_ Analysis"
-    r"\data\raw\hotel_bookings_working.csv"
-)
+from pathlib import Path
 
+DATA_PATH = Path(__file__).parent / "hotel_bookings.csv"
 
 @st.cache_data
 def load_data():
