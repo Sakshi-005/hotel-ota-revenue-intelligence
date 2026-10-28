@@ -108,7 +108,6 @@ The dataset covers July 2015 to August 2017, so the findings may not represent c
 3. Obtain the dataset from an authorized source and configure the file path expected by `app.py`.
 4. Run `streamlit run app.py`.
 
-The raw dataset is not included in this repository. Check its license and sharing permissions before distributing it.
 
 ## What I Learned
 
