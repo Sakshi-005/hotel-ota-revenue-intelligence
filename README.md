@@ -81,9 +81,13 @@ It includes:
 - Revenue by distribution channel
 - Booking lead-time distribution
 
-### Dashboard Preview
 
-![Dashboard Overview](https://github.com/Sakshi-005/hotel-ota-revenue-intelligence/blob/main/screenshorts/Screenshot%202026-10-28%20121555.png)
+## 🚀 Live Dashboard
+
+Explore the interactive Hotel & OTA Revenue Intelligence dashboard:
+
+[**View Live Dashboard**](https://hotel-ota-revenue-intelligence-mhg97pyxs5uafxwhevfvaq.streamlit.app/)
+
 
 ## Tools Used
 
