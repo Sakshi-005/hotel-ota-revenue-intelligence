@@ -74,6 +74,21 @@ DATA_PATH = Path(__file__).parent / "hotel_bookings.csv"
 @st.cache_data
 def load_data():
     data = pd.read_csv(DATA_PATH)
+    
+    # Create total nights from weekday and weekend stays
+    data["total_nights"] = (
+        pd.to_numeric(data["stays_in_weekend_nights"], errors="coerce").fillna(0)
+        + pd.to_numeric(data["stays_in_week_nights"], errors="coerce").fillna(0)
+    )
+
+    # Ensure ADR is numeric
+    data["adr"] = pd.to_numeric(data["adr"], errors="coerce")
+
+    # Calculate estimated room revenue
+    data["estimated_room_revenue"] = (
+        data["adr"] * data["total_nights"]
+    )
+
 
     # Create arrival date
     data["arrival_date"] = pd.to_datetime(
