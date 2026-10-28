@@ -83,9 +83,7 @@ It includes:
 
 ### Dashboard Preview
 
-![Dashboard Overview](screenshorts/Screenshot%202026-10-27.png)
-
-*Replace the image path above with the actual name and path of your uploaded screenshot.*
+![Dashboard Overview](https://github.com/Sakshi-005/hotel-ota-revenue-intelligence/blob/main/screenshorts/Screenshot%202026-10-28%20121555.png)
 
 ## Tools Used
 
